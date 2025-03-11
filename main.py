@@ -57,6 +57,7 @@ def main():
     root = tk.Tk()
     root.title("Open Hash")
     root.geometry("670x430")
+    root.resizable(False, False)
     root.config(bg="gray64")
 
     notebook = ttk.Notebook(root)
